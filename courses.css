@@ -1,0 +1,68 @@
+#title {
+  background-color: white;
+  padding: 70px;
+}
+#title h1{
+  font-family: helvetica;
+  font-size: 75pt;
+  color: #505050;
+  text-align: center;
+}
+#toggler{
+  font-size: 20pt;
+  font-family: helvetica;
+  background: white;
+  margin-left: 590px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  width: 100px;
+}
+
+.red{
+  background-image: url(http://s2.dmcdn.net/eUT-X.jpg);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 80px;
+  color: white;
+}
+.violet{
+  background-image: url(http://cdn.pcwallart.com/images/dark-violet-color-wallpaper-3.jpg);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 80px;
+  color: white;
+}
+.blue{
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/04/Abstract-texture-wallpapers-HD-free-download.jpg);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 80px;
+  color: white;
+}
+.orange{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/07/b6/21/07b621a37508296663f044abfa75bca9.jpg);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 80px;
+  color: white;
+}
+.yellow{
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/Gold-wallpaper-2.jpg);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 80px;
+  color: white;
+}
+.green{
+  background-image: url(http://www.1wallpaperhd.com/wp-content/uploads/Texture/FTP1/2560x1440/Fresh%20leaves%20texture%20Wallpapers%20HD%202560x1440.jpg);
+  font-size: 30pt;
+  text-align: center;
+  letter-spacing: 2px;
+  padding: 80px;
+  color: white;
+}

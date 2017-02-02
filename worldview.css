@@ -1,0 +1,62 @@
+body {
+  background-image: url(http://www.mcquilleneng.com/background2.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 400px;
+  background-size: 300%;
+}
+#title {
+  background-color: white;
+  padding: 70px;
+}
+#title h1{
+  font-family: helvetica;
+  font-size: 75pt;
+  color: #505050;
+  text-align: center;
+}
+#content1 h1{
+  font-size: 50pt;
+  font-weight: bold;
+  color: #505050;
+  margin-left: 100px;
+  margin-top: 180px;
+}
+#content1 h2{
+  font-size: 30pt;
+  font-weight: bold;
+  color: #686868;
+  margin-left: 70px;
+  margin-top: 140px;
+}
+#content1 p{
+  font-size: 16pt;
+  margin-left: 150px;
+  margin-right: 80px;
+  text-align: justify;
+  color: #686868;
+  line-height: 1.5em;
+}
+
+#content2 h1{
+  font-size: 65pt;
+  font-weight: bold;
+  color: white;
+  margin-left: 70px;
+  margin-top: 200px;
+}
+#content2 p{
+  font-size: 16pt;
+  color: #686868;
+  margin-left: 200px;
+  margin-right: 80px;
+  margin-bottom: 100px;
+  line-height: 1.5em;
+  text-align: justify;
+
+}
+#content3 h1{
+  font-family: helvetica;
+  font-size: 75pt;
+  color: #505050;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Courses</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="courses.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+</head>
+
+<body>
+<script>
+  document.body.className +='fade-out';
+  $(function() {
+      $('body').removeClass('fade-out');
+  });
+  </script>
+
+<div id="wrapper">
+  <div id="header">
+    <div id="nav"><a href="home.html">HOME</a> <a href="aboutme.html">ABOUT ME</a> <a href="worldview.html">WORLDVIEW</a> <a href="courses.html">COURSES</a></div>
+    </div></div>
+
+<div id="title"><h1>COURSES</h1></div>
+
+<div class="schedule">
+  <div class="red">WEB DESIGN</div>
+  <div class="violet">STUDY HALL</div>
+  <div class="orange">AP CALCULUS</div>
+  <div class="blue">AP ECONOMIC</div>
+  <div class="yellow">STUDY HALL</div>
+  <div class="green">WORLD LITERATURE</div>
+</div>
+
+<button id="toggler">CLICK FOR MAGIC</button>
+
+<script>
+  $( "#toggler" ).click(function() {
+      $( ".schedule" ).toggle("slow");
+  });
+</script>
+
+</body>
+</html>
