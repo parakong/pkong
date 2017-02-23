@@ -2,28 +2,42 @@
 <html>
 <head>
 	<title>Guestbook</title>
-	  <link rel="stylesheet" href="guestbook.css" type="text/css"></link>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="guestbook.css">
 </head>
 <body>
 
+	<div id="wrapper">
+	  <div id="header">
+	    <div id="nav"><a href="home.html">HOME</a> <a href="aboutme.html">ABOUT ME</a> <a href="worldview.html">WORLDVIEW</a> <a href="courses.html">COURSES</a> <a href="guestbook.html">GUESTBOOK</a></div>
+	    </div></div>
+
+	<div id="title"><h1>GUESTBOOK</h1></div>
+
 <form action="http://webdesign.students.logoscambodia.org/echo_post.php" method="POST">
 
+<h2>Welcome!</h2>
 <div>
-	<label for="name">Name:</label>
-	<input type="text" id="name" name="user_name" />
+<input type="text" id="firstname" name="firstname" placeholder="First Name"/> <input type="text" id="lastname" name="lastname" placeholder="Last Name"/>
 </div>
 
 <div>
-	<label for="mail">E-mail:</label>
-	<input type="email" id="mail" name="user_email" />
+<input type="email" id="mail" name="user_mail" placeholder="Email Address"/>
 </div>
 
 <div>
-	<label for="msg">Message:</label>
-	<textarea id="msg" name="user_message"></textarea>
+<input type="favorite" id="favorite" name="user_favorite" placeholder="Favorite Website" />
+</div>
+
+<div>
+<textarea id="msg" name="user_message" placeholder="Leave a comment"></textarea>
+</div>
+
+<div class="button">
+	<button type="submit">Save Profile</button>
 </div>
 
 </form>
-
-	</body>
+</body>
 </html>
+
